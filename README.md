@@ -9,14 +9,25 @@ Welcome to the Virtual Space Zoo project! This web-based interactive experience 
 - **Educational Content**: Each exhibit provides informative content, fascinating facts, and the latest discoveries in space exploration, making learning fun and accessible for all ages.
 - **Background Image**: A stunning space-themed background image sets the tone for your journey through the cosmos.
 - **Carousel**: Navigate through the exhibits using a user-friendly carousel, showcasing the beauty and mystery of space with each slide.
+- **API Integration**: Leverages the NASA Astronomy Picture of the Day (APOD) API to showcase daily space imagery and information.
 
 ## Technologies
 
 - **HTML5**: For structuring the content of the web page.
 - **CSS3**: For styling, including layout, fonts, and responsive design adjustments.
-- **JavaScript**: For dynamic content interaction, including the carousel functionality.
+- **JavaScript**: For dynamic content interaction, including the carousel functionality and API data fetching.
 - **Bootstrap & jQuery**: Used for implementing the carousel and ensuring cross-browser compatibility.
 - **Google Fonts**: To enhance the typography of the web content.
+
+## API Integration
+
+This project makes use of the NASA APOD API to bring daily images of space and celestial phenomena to our visitors. To integrate this API into your own project:
+
+1. Obtain an API key from [NASA's API portal](https://api.nasa.gov).
+2. Incorporate the API key into the project's JavaScript fetch request.
+3. Handle the API response to dynamically update the content on the page.
+
+Please refer to the `scripts2.js` file for examples of how API requests are made and handled within this project.
 
 ## Setup
 
