@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Space Zoo</title>
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" href="styles.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Virtual Space Zoo</h1>
+    </header>
+    <div class="bg-image">
+    </div>
+    <div class="bg-text">
+        <h2>Explore the Wonders of the Universe</h2>
+        <h4>Discover the mysteries of space and the creatures that may exist beyond our planet.</h4>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#exhibits">Exhibits</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="exhibits" class="section">
+            <h2>Explore Our Exhibits</h2>
+            <div class="carousel">
+                <div class="exhibit-card">
+                    <h3>Mars Red Desert</h3>
+                    <p>Discover the creatures thriving in the harsh conditions of the Red Planet, Mars.</p>
+                    <p>Imagine the adaptations necessary for life in a landscape with extreme temperature swings.</p>
+                    <p>Explore the potential for underground water sources to support life in subterranean caves.</p>
+                    <p>Visualize the Martian landscapes, from towering volcanoes to vast, ancient river valleys.</p>
+                    <p>Learn how scientists search for signs of past or present life on Mars through rovers and satellites.</p>
+                </div>
+                <div class="exhibit-card">
+                    <h3>Jupiter's Moons</h3>
+                    <p>Experience the mysterious ice worlds of Europa and Ganymede, two of Jupiter’s largest moons.</p>
+                    <p>Dive beneath Europa's icy surface into a world of subterranean oceans, possibly teeming with alien life.</p>
+                    <p>Discover Ganymede's magnetic field, the only moon known to have this feature, protecting its salty ocean.</p>
+                    <p>Venture into the depths of these oceans through the lens of cutting-edge space exploration missions.</p>
+                    <p>Understand the significance of these moons in the search for life beyond Earth.</p>
+                </div>
+                <div class="exhibit-card">
+                    <h3>Exotic Exoplanets</h3>
+                    <p>Wander among landscapes inspired by distant worlds beyond our solar system.</p>
+                    <p>Delve into the diversity of exoplanets, from scorching "hot Jupiters" to rocky, Earth-like worlds.</p>
+                    <p>Explore how astronomers detect these distant planets and the clues they give us about the universe.</p>
+                    <p>Imagine standing on a planet with eternal daylight, orbiting closely around a red dwarf star.</p>
+                    <p>Learn about the habitable zones of stars where liquid water—and potentially life—could exist.</p>
+                </div>
+                <div class="exhibit-card">
+                    <h3>Alien Life</h3>
+                    <p>Meet the extraterrestrial life forms that may exist in the universe, from microbial mats to complex ecosystems.</p>
+                    <p>Consider the extreme environments on Earth where life thrives, offering clues to alien life's possibilities.</p>
+                    <p>Discuss the Drake Equation and the odds of intelligent life existing elsewhere in the Milky Way.</p>
+                    <p>Explore the scientific efforts in place to detect signals from intelligent civilizations.</p>
+                    <p>Reflect on the implications of discovering extraterrestrial life for human society and our place in the universe.</p>
+                </div>
+                <div class="exhibit-card">
+                    <h3>Black Holes</h3>
+                    <p>Explore the mysterious and powerful forces of black holes, where gravity pulls so much that even light cannot escape.</p>
+                    <p>Understand the formation of black holes from the remnants of massive stars after they explode into supernovae.</p>
+                    <p>Delve into the fascinating phenomena of spaghettification and the event horizon surrounding black holes.</p>
+                    <p>Discover the role black holes play in the formation of galaxies and the universe's structure.</p>
+                    <p>Learn about recent discoveries and observations, including the first-ever image of a black hole's event horizon.</p>
+                </div>
+                <div class="exhibit-card">
+                    <h3>Space Telescopes</h3>
+                    <p>Learn about the telescopes that help us explore the universe, from the Hubble Space Telescope to the upcoming James Webb Space Telescope.</p>
+                    <p>Discover how these incredible instruments capture light from the earliest galaxies and stars in the universe.</p>
+                    <p>Explore the advancements in technology that allow us to see in infrared, ultraviolet, and X-ray light.</p>
+                    <p>Understand how space telescopes have revolutionized our knowledge of the universe, confirming the existence of exoplanets and black holes.</p>
+                    <p>Anticipate the future of space exploration through the eyes of these powerful observatories, unlocking the universe's secrets.</p>
+                </div>
+            </div>
+            
+        </section>        
+        <section id="education" class="section">
+            <h2>Learn About Space</h2>
+            <h4>Did you know? The temperature on Mars can drop to as low as -195 degrees F (-125 degrees C) at the poles during winter!</h4>
+            <h4>Explore more fascinating facts about our universe and the wonders it holds.</h4>
+        </section>
+        <section id="apod" class="section">
+            <h2>Astronomy Picture of the Day</h2>
+            <h4>Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.</h4>
+            <h4 id="apod-description">The Crab Nebula is a supernova remnant in the constellation of Taurus. It is one of the most studied remnants of a supernova, and it is filled with mysterious filaments that are still being studied by astronomers today.</h4>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <h4>Have questions or feedback? We'd love to hear from you!</h4>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Virtual Space Zoo. All rights reserved.</p>
+    </footer>
+    <script src="scripts2.js"></script>
+</body>
+</html>
